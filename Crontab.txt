@@ -1,0 +1,2 @@
+33 3 1,15 * * lynx -source http://yourwebsite/xxx/xxx/UpdateKey.php >> /dev/null 2>&1
+22 2 */2 * * /root/BackUp.sh >> /dev/null 2>&1
