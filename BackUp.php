@@ -6,8 +6,8 @@ require_once './libs/BaiduPCS.class.php';
     
 $access_token=fgets($readat);
 
-//应用目录名
-$appName = 'xingxiu';
+//应用目录名，你百度网盘我的应用目录下建立的子目录，默认album
+$appName = 'album';
 //应用根目录
 $root_dir = '/apps' . '/' . $appName . '/';
 
@@ -54,7 +54,7 @@ $result=preg_replace('/\\\/is','',$result);
 preg_match_all('^"path":"(.*?)","ctime":\d+,"mtime":(.*?),^is',$result,$result1);
 $n=0;
 $nowtime=time();
-//删除时间长度,时间秒
+//删除时间长度,时间秒，默认14天
 $deltime = 1296000;
 
 foreach($result1[2] as $part )
