@@ -3,7 +3,8 @@ baiduBackUp
 
 linux使用百度网盘自动备份
 
-测试版,如有漏洞请到http://bbee.be/留言或者发邮件到be@bbee.be
+测试版,如有漏洞请到http://bbee.be/  留言
+或者发邮件到be@bbee.be
 我会及时跟进的
 
 需要
