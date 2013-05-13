@@ -3,7 +3,7 @@ baiduBackUp
 
 linux使用百度网盘自动备份
 
-测试版,如有漏洞请到bbee.be留言或者发邮件到be@bbee.be
+测试版,如有漏洞请到http://bbee.be/留言或者发邮件到be@bbee.be
 我会及时跟进的
 
 需要
@@ -40,4 +40,4 @@ http://www.youwebsite.com/xxx/xxx/BackUp.php
 默认每两天备份一次,每月1号 15号更新key(key30天过期)
 
 
-图文教程可见我的博客 bbee.be
+图文教程可见我的博客 http://bbee.be/
